@@ -65,6 +65,8 @@ public class BasicOperation {
             System.out.println("Оба числа < 0");
         } else if (a > 10 && b > 10) {
             System.out.println("Оба числа > 10");
+        } else {
+            System.out.println("Числа не подходят ни под одно из условий");
         }
     }
 }
